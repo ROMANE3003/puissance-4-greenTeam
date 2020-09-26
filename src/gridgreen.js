@@ -1,8 +1,11 @@
+import readlineSync from 'readline-sync'
+import chalk from 'chalk'
+
+// grille du jeu
 const gridLine = () => {
     console.log('  +---+---+---+---+---+---+---+')
 }
 
-const EMPTY = ' '
 const J1X = 'X'
 const J2O = 'O'
 
@@ -83,6 +86,8 @@ const grid = () => {
     )
     gridLine()
     console.log('    1   2   3   4   5   6   7')
+
+    // console.log(`${playerName} > put(${column})`)
 }
 
 grid()
