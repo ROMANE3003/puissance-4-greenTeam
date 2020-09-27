@@ -15,7 +15,7 @@ let grid = [
     [' ', ' ', ' ', ' ', ' ', ' ', ' '],
 ]
 
-//le trais horizontaux ??? c'est bleu ça?
+// Les trais horizontaux
 const gridLine = () => {
     console.log('  +---+---+---+---+---+---+---+')
 }
@@ -98,3 +98,11 @@ const game = () => {
     }
 }
 game() // > lance le jeu
+
+// Victoire horizontale
+
+// Victoire verticale
+
+// Victoire diagonale droite
+
+// Victoire diagonale gauche
